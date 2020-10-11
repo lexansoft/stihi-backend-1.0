@@ -1,0 +1,2 @@
+ALTER TABLE content
+    ADD COLUMN editor VARCHAR(10);

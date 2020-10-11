@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<title>{{ .Article.Title}} ({{ .Article.User.NickName}}) / {{ .Site }}</title>
+	<meta name="title" content="{{ .Article.Title}} ({{ .Article.User.NickName}}) / {{ .Site }}">
+	<meta name="description" content="{{ .Article.Body}}">
+
+	<meta property="og:title" content="{{ .Article.Title}} ({{ .Article.User.NickName}}) / {{ .Site }}">
+	<meta property="og:description" content="{{ .Article.Body}}">
+	<meta property="og:image" content="{{ .Article.Image}}">
+	<meta property="og:url" content="{{ .URL}}">
+
+	<meta name="twitter:title" content="{{ .Article.Title}} ({{ .Article.User.NickName}}) / {{ .Site }}">
+	<meta name="twitter:description" content="{{ .Article.Body}}">
+	<meta name="twitter:image" content="{{ .Article.Image}}">
+	<meta name="twitter:card" content="{{ .Article.Image}}">
+</head>
+<body>
+{{ .Body}}
+</body>
+</html>

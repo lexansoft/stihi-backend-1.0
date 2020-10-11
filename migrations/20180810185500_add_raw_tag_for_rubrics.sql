@@ -1,0 +1,2 @@
+ALTER TABLE rubrics
+    ADD COLUMN raw_tag VARCHAR(255);

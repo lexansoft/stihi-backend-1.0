@@ -1,0 +1,9 @@
+/scan_blockchain
+/stihi_backend
+/decode_keys
+/blockchain_loader
+/blockchain_rescan
+/blockchain_loader_cyberway
+/scan_blockchain_cyberway
+/stihi_backend_cyberway
+/stihi_events_processor

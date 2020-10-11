@@ -1,0 +1,2 @@
+ALTER TABLE fix_pages
+    ADD COLUMN title VARCHAR(255);

@@ -1,0 +1,6 @@
+reconfigure_mode: false
+main_servers:
+- addr: "127.0.0.1:6379"
+  db: 0
+  password: ''
+  priority: 1.0

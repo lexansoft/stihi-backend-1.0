@@ -1,0 +1,38 @@
+authorize:
+  required: "Authorization required"
+  wrong: "Wrong username or password"
+  already_exists: "User already exists"
+  wrong_captcha: "Wrong captcha"
+  admin_required: "Admin required access for this operation"
+  banned: "User banned"
+  wrong_key_or_password: "Wrong key or password for this operation"
+  wrong_key_or_password_format: "Wrong key or password format. May by you enter partial key or password."
+parameters:
+  wrong_set: "Wrong set of parameters"
+  should_be: "Parameter '%s' should be present and has type '%s'"
+  password_should_be_gt: "Password length must be greater than %d characters"
+  login_wrong_symbols: "Login name has wrong symbols. Should be only 'a-z', 'A-Z', digits and '-'"
+  should_be_image: "Should be image URL in image field (with image file extension)."
+  wrong_utf8: "Wrong UTF8 data detected in body or title message."
+users:
+  absent_id: "Not exists user with this ID"
+  more_vote_power: "Voting weight is too small, please accumulate more voting power or golos power."
+  already_voting: "This vote already present."
+info:
+  under_contruction: "Under construction."
+  data_absent: "Data not found"
+  different_users: "You should be author of content for this action"
+content:
+  already: "Some content already exists! Change title or edit existing content."
+  alian: "You con't change another's content"
+  frozen: "Action possibility time expired"
+  comment_need_wait: "You try posting very fast. You need wait some time and repeat posting."
+  vote_time_exired: "Vote time for this content was expired."
+  absent: "Can not found this content for operations. Sorry."
+announce:
+  already_exists: "Announce already show on this page."
+  not_enough_money: "You have not enough money for this operation"
+invite:
+  already_exists: "Invite already show."
+transfer:
+  not_enough_money: "You have not enough money for this operation"

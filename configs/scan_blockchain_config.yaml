@@ -1,0 +1,9 @@
+start_from_first_block: false
+rpc:
+  host: 35.205.36.175
+  port: 9091
+  chain: test
+cyberway:
+  host: 127.0.0.1
+  port: 8888
+  uri: v1

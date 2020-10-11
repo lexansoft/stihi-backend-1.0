@@ -1,0 +1,2 @@
+ALTER TABLE users
+    ADD COLUMN stihi_user_time TIMESTAMP DEFAULT NOW();

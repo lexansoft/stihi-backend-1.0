@@ -1,0 +1,32 @@
+cors_origin: "*"
+golos:
+  creator: cyberfounder
+  creator_active_key: "<активный ключ пользователя, от имени которого будут создаваться пользователи>"
+  creator_posting_key:" <постинг ключ>"
+  create_account_fee:
+    amount: 10.000
+    symbol: GOLOS
+  payments_to: stihi-io
+rpc:
+  host: 35.205.36.175
+  port: 9091
+  chain: test
+listen:
+  host: 0.0.0.0
+  port: 9001
+jwt:
+  private_key_path: /home/andy/projects/STIHI.IO/stihi-backend/configs/priv_key_test.pem
+  public_key_path: /home/andy/projects/STIHI.IO/stihi-backend/configs/pub_key_test.pem
+  issuer: test.stihi.io
+  expire: 60
+  renew_time: 5
+l10n_errors:
+  - lang: ru
+    file_name: /home/andy/projects/STIHI.IO/stihi-backend/configs/l10n/errors_ru.yaml
+  - lang: en
+    file_name: /home/andy/projects/STIHI.IO/stihi-backend/configs/l10n/errors_en.yaml
+cyberway:
+  host: 127.0.0.1
+  port: 8888
+  uri: v1
+  procs_count: 4
