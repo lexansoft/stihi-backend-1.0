@@ -1,0 +1,5 @@
+host: 'localhost'
+port: 27020
+dbname: '_CYBERWAY_gls_publish'
+user: ''
+password: ''
