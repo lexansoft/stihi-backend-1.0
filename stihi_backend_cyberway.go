@@ -83,6 +83,9 @@ func main() {
 	actions.DB = level1
 	cache_level1.DB = level1
 
+	// Migrations
+	level1.Level2.RunMigrations(false)
+
 	err = jwt.Init(&Config.JWT)
 	if err != nil {
 		app.Error.Fatalf("Error init JWT: %s", err)
