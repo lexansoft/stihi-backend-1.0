@@ -36,7 +36,7 @@ func TestGetUserVotesForContentList(t *testing.T) {
 		t.Fatalf("Error update userInfo: %s", err)
 	}
 
-	token, _, err := jwt.New(userId, userName, "u", "")
+	token, _, err := jwt.New(userId, userName, "u", "", "")
 	if err != nil {
 		t.Fatalf("Error generate JWT: %s", err)
 	}
