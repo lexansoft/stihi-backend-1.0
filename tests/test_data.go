@@ -34,7 +34,7 @@ func init() {
 	}
 
 	// Настройки DB
-	cache_level1.DB, err = cache_level1.New("../configs/redis_test_config.yaml", "../configs/db_test_config.yaml")
+	cache_level1.DB, err = cache_level1.New("../configs/redis_test_config.yaml", "../configs/db_test_config.yaml", "../configs/mongo_db_config.yaml")
 	if err != nil {
 		app.Error.Fatalln(err)
 	}
